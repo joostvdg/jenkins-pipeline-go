@@ -1,4 +1,3 @@
-@Library('github.com/joostvdg/jenkins-pipeline-lib')
 import com.github.joostvdg.Utilities
 
 def goHome = tool name: 'Go Latest', type: 'org.jenkinsci.plugins.golang.GolangInstallation'
