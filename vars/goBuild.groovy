@@ -21,7 +21,7 @@ def call() {
             }
         }
         stage('Run') {
-            sh 'go run src/main.go'
+            sh './hello-world-go'
         }
         stage('Archive') {
             archive 'hello-world-go'
